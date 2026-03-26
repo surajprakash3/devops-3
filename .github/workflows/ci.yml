@@ -2,12 +2,16 @@ name: Docker Image CI
 
 on:
   push:
-  branches: [ "main" ]
+    branches: [ "main" ]
 
 jobs:
+
   build:
-  runs-on: ubuntu-latest
-  steps:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
     - name: Checkout Code
       uses: actions/checkout@v4
 
