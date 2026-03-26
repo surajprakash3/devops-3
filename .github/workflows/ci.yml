@@ -22,7 +22,7 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Build Docker Image
-      run: docker build -t ramram27/backend-devops:latest .
+      run: docker build -t surajprakash1/devops-3:latest .
 
     - name: Push Docker Image
-      run: docker push ramram27/backend-devops:latest
+      run: docker push surajprakash1/devops-3:latest
